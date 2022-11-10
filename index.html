@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Odos</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__inner">
+                    <img
+                        class="header__logo"
+                        src="img/logo.svg"
+                        width="70px"
+                        alt=""
+                    />
+
+                    <nav class="nav" id="nav">
+                        <a href="#" class="nav__link" data-scroll="#services"
+                            >Услуги</a
+                        >
+                        <a href="#" class="nav__link" data-scroll="#machine"
+                            >Аренда Техники</a
+                        >
+                        <a href="#" class="nav__link" data-scroll="#footer"
+                            >Контакты</a
+                        >
+                    </nav>
+                    <button class="burger" type="button" id="navToggle">
+                        <span class="burger__item">Menu</span>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <div class="intro" id="intro">
+            <div class="container">
+                <div class="intro__inner">
+                    <div class="intro__suptitle">Строительная компания</div>
+                    <h1 class="intro__title">Содружество <span>ОДО</span></h1>
+                    <div class="intro__subtitle">
+                        Качество, которого вы заслуживаете, и надежность, на
+                        которую вы можете рассчитывать.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="section" id="services">
+            <div class="container">
+                <h2 class="section__title">Услуги</h2>
+
+                <div class="catalog__flex">
+                    <div class="catalog__row">
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img src="img/services/shlang.jpg" alt="" />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Шланг высокого давления
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img
+                                        src="img/services/shpaklevka.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Шпаклевка и штукатурка стен
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img src="img/services/tiles.jpg" alt="" />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Укладка тротуарной плитки
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img
+                                        src="img/services/windows.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Установка окон ПВХ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img src="img/services/shlang.jpg" alt="" />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Шланг высокого давления
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img
+                                        src="img/services/shpaklevka.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Шпаклевка и штукатурка стен
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img src="img/services/tiles.jpg" alt="" />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Укладка тротуарной плитки
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__col">
+                            <div class="catalog__card card">
+                                <div class="card__image">
+                                    <img
+                                        src="img/services/windows.jpg"
+                                        alt=""
+                                    />
+                                </div>
+                                <div class="card__body">
+                                    <div class="card__title">
+                                        Установка окон ПВХ
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="budget__text">
+                        *Информацию и стоймость услуг уточняйте по телефону
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="machine">
+            <div class="container">
+                <h2 class="section__title">Аренда техники</h2>
+
+                <div class="machines">
+                    <div class="machine__item">
+                        <img
+                            src="img/succesfully.svg"
+                            alt=""
+                            class="machine__icon"
+                        />
+                        <div class="machine__name">Погрузочный кран</div>
+                    </div>
+                    <div class="machine__item">
+                        <img
+                            src="img/succesfully.svg"
+                            alt=""
+                            class="machine__icon"
+                        />
+                        <div class="machine__name">Трактор</div>
+                    </div>
+                    <div class="machine__item">
+                        <img
+                            src="img/succesfully.svg"
+                            alt=""
+                            class="machine__icon"
+                        />
+                        <div class="machine__name">Эксковатор</div>
+                    </div>
+                    <div class="machine__item">
+                        <img
+                            src="img/succesfully.svg"
+                            alt=""
+                            class="machine__icon"
+                        />
+                        <div class="machine__name">Бульдозер</div>
+                    </div>
+                    <div class="machine__item">
+                        <img
+                            src="img/succesfully.svg"
+                            alt=""
+                            class="machine__icon"
+                        />
+                        <div class="machine__name">Погрузчик</div>
+                    </div>
+                    <div class="machine__item">
+                        <img
+                            src="img/succesfully.svg"
+                            alt=""
+                            class="machine__icon"
+                        />
+                        <div class="machine__name">Подьёмник монтажный</div>
+                    </div>
+                </div>
+                <p class="budget__text">
+                    *Информацию и стоймость аренды уточняйте по телефону
+                </p>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__block">
+                        <div class="footer__title">Контакты:</div>
+                        <div href="+375290000000" class="footer__tel">
+                            <a href="">+375 29 000 00 00</a>
+                        </div>
+
+                        <div href="+375290000000" class="footer__tel">
+                            <a href="">+375 29 000 00 00</a>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__title">Почтовый адресс:</div>
+                        <div href="email:odos@internet.com" class="footer__tel">
+                            <a href="">odos@internet.com</a>
+                        </div>
+                    </div>
+                    <div class="footer__block">
+                        <div class="footer__logo">
+                            <img src="img/logo.svg" width="80px" alt="" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">© 2022 ODO. All Rights Reserved.</div>
+            </div>
+        </footer>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
